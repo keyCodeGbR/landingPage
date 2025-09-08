@@ -1,4 +1,4 @@
-name: Deploy static Next.js to GitHub Pages
+name: Deploy KeyCode Page
 
 on:
   push:
