@@ -12,7 +12,7 @@ export default function Home() {
         <nav className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="flex h-14 items-center justify-between">
             <a href="#" className="text-lg font-semibold tracking-tight">
-              MeineApp
+              KeyCode 
             </a>
 
             {/* Desktop-Links */}
@@ -59,7 +59,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 h-14 flex items-center justify-between text-sm text-gray-600">
-          <span>© {new Date().getFullYear()} MeineApp</span>
+          <span>© {new Date().getFullYear()} KeyCode</span>
           <div className="flex gap-4">
             <a href="#impressum" className="hover:underline">Impressum</a>
             <a href="#datenschutz" className="hover:underline">Datenschutz</a>
