@@ -12,7 +12,7 @@ export default function Home() {
         <nav className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="flex h-14 items-center justify-between">
             <a href="#" className="text-lg font-semibold tracking-tight">
-              KeyCode
+              MeineApp
             </a>
 
             {/* Desktop-Links */}
@@ -44,27 +44,15 @@ export default function Home() {
       </header>
 
       {/* Eine Section (Main) */}
-      <main id="home" className="mx-auto w-full max-w-5xl px-4 sm:px-6 py-10">
-        <section className="rounded-lg border p-6 sm:p-8">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-3">Willkommen 👋</h1>
-          <p className="text-gray-700 mb-6">
-            Das ist deine schlanke React/Next.js-Seite mit Menü, einer Sektion und Footer.
+      <main id="home" className="mx-auto w-full max-w-5xl px-4 sm:px-6 flex flex-col items-center justify-center text-center">
+        <section className="py-20">
+          <h1 className="text-4xl sm:text-6xl font-bold mb-6">
+            DIESE SEITE IST NOCH IN BEARBEITUNG
+          </h1>
+          <p className="text-lg sm:text-xl text-gray-700">
+            Bald wird diese Seite das Licht der Welt erblicken. <br />
+            Bitte gedulden Sie sich noch ein wenig. 😊
           </p>
-
-          <div id="features" className="grid gap-4 sm:grid-cols-3">
-            <div className="rounded border p-4">
-              <h3 className="font-semibold mb-1">Schnell</h3>
-              <p className="text-sm text-gray-600">Minimaler Code, direkt einsatzbereit.</p>
-            </div>
-            <div className="rounded border p-4">
-              <h3 className="font-semibold mb-1">Responsiv</h3>
-              <p className="text-sm text-gray-600">Desktop-Menü & mobiles Burger-Menü.</p>
-            </div>
-            <div className="rounded border p-4">
-              <h3 className="font-semibold mb-1">Sauber</h3>
-              <p className="text-sm text-gray-600">Klare Struktur mit Tailwind-Klassen.</p>
-            </div>
-          </div>
         </section>
       </main>
 
